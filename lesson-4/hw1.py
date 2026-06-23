@@ -99,7 +99,3 @@ new_house[num_cols] = scaler.transform(new_house[num_cols])  # trained scaler
 predicted_price = trainer.predict(new_house)
 print("Predicted Price:", predicted_price[0])
 
-# The model provides a reasonable first approximation of house prices using the given features. 
-# It highlights the importance of size and key amenities but is constrained by linearity assumptions, 
-# limited feature set, and potential multicollinearity. For higher accuracy, more complex models 
-# (e.g., Random Forests or Gradient Boosting) or additional data on location and market trends could be explored.
